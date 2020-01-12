@@ -13,7 +13,7 @@ import RxCocoa
 class ViewController: UIViewController {
 
     @IBOutlet weak var storeTabelView: UITableView!
-    @IBOutlet weak var generalPrice: UILabel!
+
     public var price:Float = 0
     let disposeBag = DisposeBag()
     private var product = Observable.just([
@@ -26,7 +26,6 @@ class ViewController: UIViewController {
 
 
     override func viewDidLoad() {
-        generalPrice.text = "Общая сумма : \(price) BYN"
         super.viewDidLoad()
 
         product.bind(to: storeTabelView.rx.items(cellIdentifier: "Cell", cellType: Cell.self)){row, product, cell  in
@@ -36,17 +35,8 @@ class ViewController: UIViewController {
                 cell.price.text = "Цена :" + String(product.price)
             cell.quantityOfProduct.text = String(product.quantityOfProduct)
         }
-
-        
-
-    
-
-        // Do any additional setup after loading the view.
     }
 
-    @IBAction func departureToBasket(_ sender: Any) {
-        print("В корзину")
-    }
 
 }
 
