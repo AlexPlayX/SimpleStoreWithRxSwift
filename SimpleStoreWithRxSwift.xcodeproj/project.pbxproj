@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1792384CA1F23655F8F34115 /* Pods_SimpleStoreWithRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4BEA11448289D6830CF136 /* Pods_SimpleStoreWithRxSwift.framework */; };
+		97E8D281B410630AC1927439 /* Pods_SimpleStoreWithRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0832974F61DBB9D7E705E9F /* Pods_SimpleStoreWithRxSwift.framework */; };
 		FA0AAF7723CB731B00837EB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AAF7623CB731B00837EB1 /* AppDelegate.swift */; };
 		FA0AAF7923CB731B00837EB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AAF7823CB731B00837EB1 /* SceneDelegate.swift */; };
 		FA0AAF7B23CB731B00837EB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AAF7A23CB731B00837EB1 /* ViewController.swift */; };
@@ -19,9 +19,23 @@
 		FA5A964123CBA0CA0050EB2D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A964023CBA0CA0050EB2D /* Product.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FA5A964B23CBAC2B0050EB2D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		6D4BEA11448289D6830CF136 /* Pods_SimpleStoreWithRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleStoreWithRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBC23FDBEF1A9FECC9E66ABC /* Pods-SimpleStoreWithRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStoreWithRxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStoreWithRxSwift/Pods-SimpleStoreWithRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		5F3F409DC750ACB8ADA9F64D /* Pods-SimpleStoreWithRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStoreWithRxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStoreWithRxSwift/Pods-SimpleStoreWithRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		9A1EB4C1AD4F7415900AAEAC /* Pods-SimpleStoreWithRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStoreWithRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStoreWithRxSwift/Pods-SimpleStoreWithRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B0832974F61DBB9D7E705E9F /* Pods_SimpleStoreWithRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleStoreWithRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0AAF7323CB731B00837EB1 /* SimpleStoreWithRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleStoreWithRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0AAF7623CB731B00837EB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA0AAF7823CB731B00837EB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +47,6 @@
 		FA0AAF8723CB731D00837EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA5A963E23CB99FC0050EB2D /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		FA5A964023CBA0CA0050EB2D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		FAB3C6563EC2EDF87A7CBE7A /* Pods-SimpleStoreWithRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStoreWithRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStoreWithRxSwift/Pods-SimpleStoreWithRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,28 +54,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1792384CA1F23655F8F34115 /* Pods_SimpleStoreWithRxSwift.framework in Frameworks */,
+				97E8D281B410630AC1927439 /* Pods_SimpleStoreWithRxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B0921C5C93E25ABA6250F3D /* Pods */ = {
+		1CC0FA915C59CC9F256B445E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FAB3C6563EC2EDF87A7CBE7A /* Pods-SimpleStoreWithRxSwift.debug.xcconfig */,
-				EBC23FDBEF1A9FECC9E66ABC /* Pods-SimpleStoreWithRxSwift.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D2DEFAB0196411495E271B19 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6D4BEA11448289D6830CF136 /* Pods_SimpleStoreWithRxSwift.framework */,
+				B0832974F61DBB9D7E705E9F /* Pods_SimpleStoreWithRxSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AF2CC8E3C23743BE30C4F0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A1EB4C1AD4F7415900AAEAC /* Pods-SimpleStoreWithRxSwift.debug.xcconfig */,
+				5F3F409DC750ACB8ADA9F64D /* Pods-SimpleStoreWithRxSwift.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FA0AAF6A23CB731B00837EB1 = {
@@ -70,8 +83,8 @@
 			children = (
 				FA0AAF7523CB731B00837EB1 /* SimpleStoreWithRxSwift */,
 				FA0AAF7423CB731B00837EB1 /* Products */,
-				1B0921C5C93E25ABA6250F3D /* Pods */,
-				D2DEFAB0196411495E271B19 /* Frameworks */,
+				2AF2CC8E3C23743BE30C4F0E /* Pods */,
+				1CC0FA915C59CC9F256B445E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,7 +124,8 @@
 				FA0AAF6F23CB731B00837EB1 /* Sources */,
 				FA0AAF7023CB731B00837EB1 /* Frameworks */,
 				FA0AAF7123CB731B00837EB1 /* Resources */,
-				AED03CD66E8F60772A314102 /* [CP] Embed Pods Frameworks */,
+				FA5A964B23CBAC2B0050EB2D /* Embed Frameworks */,
+				960D34CCD6D8E358A5D54D8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,7 +201,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AED03CD66E8F60772A314102 /* [CP] Embed Pods Frameworks */ = {
+		960D34CCD6D8E358A5D54D8B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,7 +377,7 @@
 		};
 		FA0AAF8B23CB731D00837EB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAB3C6563EC2EDF87A7CBE7A /* Pods-SimpleStoreWithRxSwift.debug.xcconfig */;
+			baseConfigurationReference = 9A1EB4C1AD4F7415900AAEAC /* Pods-SimpleStoreWithRxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -382,7 +396,7 @@
 		};
 		FA0AAF8C23CB731D00837EB1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBC23FDBEF1A9FECC9E66ABC /* Pods-SimpleStoreWithRxSwift.release.xcconfig */;
+			baseConfigurationReference = 5F3F409DC750ACB8ADA9F64D /* Pods-SimpleStoreWithRxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -15,9 +15,7 @@ class Cell:UITableViewCell {
     @IBOutlet weak var nameProduct: UILabel!
     @IBOutlet weak var price: UILabel!
     @IBOutlet weak var quantityOfProduct: UILabel!
-    @IBAction func minusButton(_ sender: Any) {
-    }
-    @IBAction func plusButton(_ sender: Any) {
-    }
+    @IBOutlet weak var minusButton: UIButton!
+    @IBOutlet weak var plusButton: UIButton!
     
 }

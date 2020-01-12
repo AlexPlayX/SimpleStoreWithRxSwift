@@ -14,13 +14,15 @@ struct Product {
     let price: Float
     let text:String
     let flickrID: String
+    var quantityOfProduct: Int
     var image: UIImage?
 
-    init(name: String, price:Float, text:String, flickrID: String) {
+    init(name: String, price:Float, text:String, flickrID: String, quantityOfProduct: Int) {
         self.name = name
         self.price = price
         self.text = text
         self.flickrID = flickrID
+        self.quantityOfProduct = quantityOfProduct
         image = UIImage(named: flickrID)
     }
 
