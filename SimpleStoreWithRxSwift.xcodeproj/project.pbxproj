@@ -16,6 +16,7 @@
 		FA0AAF8323CB731D00837EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0AAF8223CB731D00837EB1 /* Assets.xcassets */; };
 		FA0AAF8623CB731D00837EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0AAF8423CB731D00837EB1 /* LaunchScreen.storyboard */; };
 		FA5A963F23CB99FC0050EB2D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A963E23CB99FC0050EB2D /* Cell.swift */; };
+		FA5A964123CBA0CA0050EB2D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A964023CBA0CA0050EB2D /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		FA0AAF8523CB731D00837EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA0AAF8723CB731D00837EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA5A963E23CB99FC0050EB2D /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		FA5A964023CBA0CA0050EB2D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		FAB3C6563EC2EDF87A7CBE7A /* Pods-SimpleStoreWithRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStoreWithRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStoreWithRxSwift/Pods-SimpleStoreWithRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				FA0AAF7623CB731B00837EB1 /* AppDelegate.swift */,
 				FA0AAF7823CB731B00837EB1 /* SceneDelegate.swift */,
 				FA0AAF7A23CB731B00837EB1 /* ViewController.swift */,
+				FA5A964023CBA0CA0050EB2D /* Product.swift */,
 				FA0AAF7C23CB731B00837EB1 /* Main.storyboard */,
 				FA5A963E23CB99FC0050EB2D /* Cell.swift */,
 				FA0AAF8223CB731D00837EB1 /* Assets.xcassets */,
@@ -218,6 +221,7 @@
 				FA5A963F23CB99FC0050EB2D /* Cell.swift in Sources */,
 				FA0AAF7723CB731B00837EB1 /* AppDelegate.swift in Sources */,
 				FA0AAF7923CB731B00837EB1 /* SceneDelegate.swift in Sources */,
+				FA5A964123CBA0CA0050EB2D /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
